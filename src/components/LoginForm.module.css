@@ -1,0 +1,16 @@
+.form {
+  z-index: 2;
+  position: absolute;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-color: wheat;
+  justify-content: center;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
