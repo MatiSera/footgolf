@@ -16,17 +16,69 @@
 }
 
 .buttonContainer {
-  z-index: 2;
   position: absolute;
   display: flex;
-  flex-direction: column;
   padding: 40px;
   justify-content: center;
   height: 40%;
   width: 25%;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 button {
-  margin: 15px
+  font: inherit;
+  background-color: #ebb002;
+  border: 1px solid #ebb002;
+  color: #201d0f;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+.red {
+  background-color: #d00000;
+  border: 1px solid #d00000;
+  color: white;
+}
+
+.yellow {
+  background-color: #ebb002;
+  border: 1px solid #ebb002;
+  color: #201d0f;
+}
+
+.white {
+  background-color: white;
+  border: 1px solid white;
+  color: #201d0f;
+}
+
+.blue {
+  background-color: #0061a8;
+  border: 1px solid #0061a8;
+  color: white;
+}
+
+.new {
+  background-color: #201d0f;
+  border: 1px solid #201d0f;
+  color: white;
+}
+
+.holeCount {
+  position: absolute;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  top: 5%;
+  background-color: white;
+  width: 10%;
+}
+
+.holeCount p {
+  font-size: 2rem;
+  font-weight: bold;
 }
