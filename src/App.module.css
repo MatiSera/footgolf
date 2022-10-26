@@ -14,3 +14,19 @@
   justify-content: center;
   align-items: center;
 }
+
+.buttonContainer {
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  justify-content: center;
+  height: 40%;
+  width: 25%;
+  align-items: center;
+}
+
+button {
+  margin: 15px
+}

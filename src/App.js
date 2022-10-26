@@ -1,13 +1,10 @@
-import classes from './App.module.css';
-import LoginForm from './components/LoginForm';
+// import classes from './App.module.css';
+// import LoginForm from './components/LoginForm';
+import Home from './screens/Home/Home';
 
 function App() {
   return (
-    <div className={classes.app}>
-      <div className={classes.background}>
-      </div>
-      <LoginForm />
-    </div>
+    <Home />
   );
 }
 
